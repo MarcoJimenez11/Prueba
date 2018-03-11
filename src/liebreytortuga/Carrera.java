@@ -65,9 +65,11 @@ public class Carrera {
         
         if(liebre >= 70 && tortuga >= 70)
             System.out.println("Empate");
-        else if(liebre >= 70)
-            System.out.println("Gana la liebre");
         else if(tortuga >= 70)
-            System.out.println("Gana la tortuga");
+            System.out.println("Gana la tortuga, y esto es texto nuevo");
+    }
+    
+    public void nuevo(){
+        //código nuevo
     }
 }
